@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.baner_sec{
+    position: relative;
+    width: 1080px;
+    height: 1080px;
+    overflow: hidden;
+   background-image: url('../image/baner-1.jpg');
+    margin: auto;
+    cursor: pointer;
+   
+}
+.image{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+}
+#test-1 {
+    transform: translateY(-100%);
+}
+#test-2 {
+    transform: translateX(100%); 
+}
+#test-3 {
+   transform: translateX(-100%);
+}
+#test-4{
+    opacity: 0;
+}
+#test-5{
+    transform: scale(0);
+    transform-origin: 50% 85%;
+}

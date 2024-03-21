@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:Montserrat, sans-serif;
+}
+
+.banner{
+    width: 160px;
+    height: 600px;
+   background-image: url("../image/background.png");
+
+   position: relative;
+   overflow: hidden;
+   cursor: pointer;
+
+}
+.logo{
+    position: absolute;
+    top: 42px;
+    left: 70px;
+    width: 26px;
+    height: 26px;
+}
+.test_1{
+    position: absolute;
+    font-size: 12px;
+    top: 68px;
+    left: 56px;
+   color: #fff;
+   z-index: 999;
+}
+.text_2{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    line-height: 1.08;
+    top: 119px;
+    left: 30px;
+    z-index: 999;
+}
+.text_3{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    line-height: 1.08;
+    top: 140px;
+    left: 33px;
+    z-index: 999;
+}
+.text_4{
+    position: absolute;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.08;
+    top: 162px;
+    left: 40px;
+    z-index: 999;
+}
+.text_5{
+    position: absolute;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    top: 178px;
+    text-transform: uppercase;
+    line-height: 1.08;
+    left: 20px;
+    z-index: 999;
+}
+.bag-img{
+position: absolute;
+width: 264px;
+height: 270px;
+bottom: 139px;
+right: -56px;
+z-index: 99;
+}
+.border_img{
+position: absolute;
+    bottom: 126px;
+    left: 22px;
+}
+.cub_img{
+    position: absolute;
+    width: 315px;
+    bottom: 151px;
+    right: -70px;
+    height: 266px;
+    z-index: 100;
+}
+.btn{
+    position: absolute;
+    border: 3px solid rgb(255,255,255);
+    color: #fff;
+    padding: 1px 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 42px;
+    left: 24px;
+}
+
+#logo{
+    transform: translateY(-100px);
+}
+#text_1,#text_2,#text_3,#text_4{
+transform: translateX(-150px);
+}
+#bag_img{
+    transform: translateX(-200px);
+}
+#btn{
+    transform: translateY(100px);
+}
+#cub_img{
+    transform: translateY(-400px);
+}

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+.banner-sec{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    border: 1px solid #000;
+    /* background-color: #180267; */
+    /* background: radial-gradient(circle, rgb(4, 114, 85) 0%, rgb(1, 33, 26) 100%); */
+    cursor: pointer;
+}
+
+.fade{
+    opacity: 0;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bg-img{
+    width: 500px;
+    height: 250px;
+}
+
+#img-1{
+    width: 175px;
+    left: 142px;
+    top: 14px;
+    transform: translateX(-30px);
+}
+
+.text{
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    position: absolute;
+    font-weight: normal;
+    text-transform: uppercase;
+    transform: translateX(-300px);
+}
+
+#text-1{
+    top: 70px;
+    left: 25px;
+    font-size: 15px;
+}
+
+#text-2{
+    top: 90px;
+    left: 25px;
+    font-size: 15px;
+}
+
+#text-3{
+    top: 108px;
+    left: 25px;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(233, 162, 166);
+}
+
+#text-4{
+    top: 130px;
+    left: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    color: rgb(233, 162, 166);
+}
+
+#text-5{
+    position: absolute;
+    font-family: 'Jost', sans-serif;
+    top: 25px;
+    left: 64px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#logo-icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 27px;
+    left: 35px;
+}
+
+.button{
+    position: absolute;
+    bottom: -60px;
+    left: 20px;
+    font-family: 'Jost', sans-serif;
+    padding: 4px 14px;
+    text-transform: uppercase;
+    border: 2px solid rgb(233, 162, 166);
+    background-color: rgb(233, 162, 166);
+    border-radius: 25px;
+    outline: none;
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
+}

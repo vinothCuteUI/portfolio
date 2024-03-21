@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.banner{
+    position: relative;
+    width: 336px;
+    height: 280px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#text-1, #text-2, #text-6{
+    transform: translateX(100%);
+}
+#text-5{
+    transform: translateY(100%);
+}
+#text-4{
+    transform: translateX(-100%);
+}

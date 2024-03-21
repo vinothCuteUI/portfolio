@@ -1,0 +1,141 @@
+
+/* Column -----------------------------*/
+.col-300{
+  width: 300px;
+  height: auto;
+}
+.col-336{
+  width: 336px;
+  height: auto;
+}
+.col-160{
+  width: 160px;
+  height: auto;
+}
+.col-160x600{
+  width: 160px;
+  height: 600px;
+}
+.col-300x250{
+  width: 300px;
+  height: 250px;
+}
+.col-336x280{
+  width: 336px;
+  height: 280px;
+}
+.col-1080x1080{
+  width: 1080px;
+  height: 1080px;
+}
+.col-728{
+  width: 728px;
+  height: auto;
+}
+.col-1080{
+  width: 1080px;
+  height: auto;
+}
+.col-700{
+  width: 700px;
+  height: 100%;
+}
+.col-1200{
+  width: 1200px;
+  height: 100%;
+}
+.col-200{
+  width: 200px;
+  height: 100%;
+}
+.col-320{
+  width: 320px;
+  height: 100%;
+}
+
+
+.h-90{
+  height: 90px !important;
+}
+.h-250{
+  height: 250px !important;
+}
+.h-600{
+  height: 600px !important;
+}
+.h-1080{
+  height: 1080px !important;
+}
+/* Buttons -------------------------------*/
+.btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+/* Page title --------------------------*/
+.page-title{
+    padding: 0px 0 10px;
+    border-bottom:solid 1px #eee;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-title h2{
+    font-size: 1.7rem;
+    color: #222;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-weight: 600;
+}
+.page-title > .action-btn{
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+.action-btn > span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -55%);
+    line-height: initial;
+}
+
+/* Card 1 style -------------------------*/
+.cards-1{
+  background-color: #fff;
+  padding: 0;
+  box-shadow: 0 6px 25px -10px #b1b1b1;
+  margin-bottom: 30px;
+  /* border-radius: 10px; */
+}
+
+.card-1-img{
+  background-color: #eee;
+  overflow: hidden;
+}
+.card-1-txt{
+  font-size: 16px;
+  color: #222;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.card-1-btn{
+  padding: 4px 15px;
+  background-color: #00BCD4;
+  color: #fff;
+}
+.card-1-btn:hover{
+  color: #fff;
+  background-color:#039ab7;
+}
+
+

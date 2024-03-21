@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-sec{
+    position: relative;
+    width: 336px;
+    height: 280px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

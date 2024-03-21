@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-sec{
+    position: relative;
+    width: 160px;
+    height: 600px;
+    overflow: hidden;
+   background-color: #ffffff;
+   border: 1px solid #000;
+   cursor: pointer;
+}
+.img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+#text-1{
+    transform: scale(0);
+    transform-origin: 50% 3%;
+}
+#text-2{
+    transform: translateX(-100%);
+}
+#text-3{
+    transform: translateX(100%);
+}
+#text-4{
+     transform: scale(0);
+     transform-origin: 45% 95%;
+}

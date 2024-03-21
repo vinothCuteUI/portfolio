@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.banner{
+    position: relative;
+    width: 160px;
+    height: 600px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.logo{
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 36px;
+    left: 41px;
+    z-index: 100;
+}
+.text_1{
+    font-size: 12px;
+    position: absolute;
+    top: 37px;
+    font-weight: 900;
+    left: 76px;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 100;
+}
+.text_2{
+    font-size: 12px;
+    position: absolute;
+    top: 49px;
+    font-weight: 900;
+    left: 76px;
+    font-family: 'Montserrat', sans-serif;
+  z-index: 100;
+}
+
+.text_3{
+    font-size: 25px;
+    position: absolute;
+    font-weight: 900;
+    top: 112px;
+    left: 24px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    z-index: 50;
+
+}
+.text_4{
+    font-size: 25px;
+    position: absolute;
+    font-weight: 900;
+    top: 139px;
+    left: 24px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    z-index: 50;
+
+}
+.text_5{
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    top: 165px;
+    font-weight: 900;
+    left: 33px;
+    z-index: 50;
+}
+.text_6{
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    top: 182px;
+    font-weight: 900;
+    left: 17px;
+    z-index: 50;
+}
+.background_img{
+    position: absolute;
+    top: 0px;
+}
+.air{
+    position: absolute;
+    top: 210px;
+    right: 130px;
+}
+.clout{
+    position: absolute;
+    z-index: 1;
+      left: 70px;
+}
+.btn{
+    border: 2px solid;
+    padding: 4px 15px;
+    font-size: 12px;
+    font-weight: 800;
+    color: #000;
+    position: absolute;
+    bottom: 42px;
+    font-family: 'Montserrat', sans-serif;
+    left: 27px;
+}
+#btn{
+    transform: translateY(100px);
+}
+#text_3,#text_4,#text_5,#text_6{
+    transform: translateX(-200px);
+}
+#clout{
+    transform: translateX(-500px);
+}
+#air{
+    transform: translateX(300px);
+}

@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yellowtail', cursive;
+    font-family: 'Jost', sans-serif;
+}
+
+.banner-sec{
+    position: relative;
+    width: 300px;
+    height: 600px;
+    overflow: hidden;
+    border: 1px solid #000;
+    /* background-color: #180267; */
+    background: radial-gradient(circle, rgb(4, 114, 85) 0%, rgb(1, 33, 26) 100%);
+    cursor: pointer;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bg-img{
+    width: 600px;
+    height: 600px;
+}
+
+.text{
+    font-family: 'Yellowtail', cursive;
+    color: #fff;
+    position: absolute;
+    opacity: 0;
+    font-weight: normal;
+}
+
+#text-1{
+    top: 90px;
+    left: 65px;
+    font-size: 49px;
+    letter-spacing: 2px;
+}
+
+#text-2{
+    top: 142px;
+    left: 94px;
+    font-size: 42px;
+    letter-spacing: 4px;
+}
+
+#text-3{
+    top: 185px;
+    left: 50px;
+    font-size: 38px;
+    letter-spacing: 1px;
+}
+
+#text-4{
+    position: absolute;
+    font-family: 'Jost', sans-serif;
+    top: 30px;
+    left: 106px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#logo-icon{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 30px;
+    left: 74px;
+}
+
+.img-1{
+    width: 200px;
+    height: 460px;
+    top: 170px;
+    transform: scale(0.8);
+    left: 50px;
+}
+
+.img-2{
+    width: 120px;
+    top: 500px;
+    left: 70px;
+}
+
+.img-3{
+    width: 140px;
+    top: 480px;
+    left: 150px;    
+}
+
+.img-4{
+    width: 125px;
+    top: 490px;
+    left: 10px;
+}
+
+.mist-1{
+    top: 174px;
+    width: 20px;
+    height: 20px;
+    left: 22px;
+    opacity: 0;
+}
+
+.mist-2{
+    top: 94px;
+    width: 40px;
+    height: 40px;
+    left: 200px;
+    opacity: 0;
+}
+
+.mist-3{
+    top: 142px;
+    width: 35px;
+    height: 35px;
+    left: 42px;
+    opacity: 0;
+}
+
+.mist-4 {
+    top: 234px;
+    width: 20px;
+    height: 20px;
+    left: 182px;
+    opacity: 0;
+}
+
+.mist-5 {
+    top: 226px;
+    width: 15px;
+    height: 15px;
+    left: 142px;
+    opacity: 0;
+}
+
+.wave{
+    width: 300px;
+    height: 240px;
+    top: 70px;
+    left: 0px;
+}
+
+.img-sec{
+    transform: scale(0.7) translateY(280px);
+}
+
+.button{
+    position: absolute;
+    bottom: -50px;
+    left: 80px;
+    font-family: 'Jost', sans-serif;
+    padding: 6px 26px;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    background-color: rgb(4, 114, 85);
+    border-radius: 25px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}

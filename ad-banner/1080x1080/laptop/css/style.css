@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner-sec{
+    position: relative;
+    width: 1080px;
+    height: 1080px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+#text-1,#text-2,#text-3,#offer{
+    transform: translateX(-100%);
+}
+#cta{
+    transform: scale(0);
+    transform-origin: 75% 20%;
+}

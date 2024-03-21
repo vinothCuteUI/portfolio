@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.baner{
+    position: relative;
+    width: 728px;
+   height: 90px;
+   background-image: url("../image/baner.png");
+   cursor: pointer;
+   overflow: hidden;
+}
+.img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#test-1, #test-3{
+    transform: translateY(-100%);
+}
+#test-2 , #test-4{
+    opacity: 0;
+}
+#test-5{
+    transform: translateX(100%);
+}

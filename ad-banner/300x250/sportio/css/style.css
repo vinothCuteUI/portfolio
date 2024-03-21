@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-sec{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#text-1{
+    transform: translateY(-100%);
+}
+#text-2,#text-3,#text-4,#text-5, #bg-shape{
+    transform: translateX(-100%);
+}
+#text-6{
+    transform: translateY(100%);
+}
+#image-1{
+    transform: translateY(-15%);
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Arial', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ad-banner{
+    width: 728px;
+    height: 90px;
+    margin: 0 auto;
+    overflow: hidden;
+    border:solid 1px #ccc;
+    position: relative;
+    cursor: pointer;
+}
+.ad{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 728px;
+    height: 90px;
+}
+.hide{
+    opacity: 0;
+}
+
+#bg{
+    width: auto;
+    height: 90px;
+}

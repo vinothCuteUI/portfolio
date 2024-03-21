@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+#banner-sec{
+    position: relative;
+    width: 300px;
+    height: 600px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img1{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.clout{
+    position: absolute;
+    top: 309px;
+   z-index: 10;
+   height: 18vh;
+   left: 300px;
+}
+
+
+
+
+#text-2,#text-3,#text-4{
+    transform: translateX(-100%);
+}
+#image-1{
+    transform: translateY(65%);
+}  
+#text-5{
+    transform: translateY(75%);
+}  
+#text-1{
+    transform: translateY(-100%);
+}  
+
+#bg1{
+    transform: translateX(-500px);
+}

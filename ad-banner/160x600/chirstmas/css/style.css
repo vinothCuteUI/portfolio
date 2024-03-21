@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-sec{
+    position: relative;
+    width: 160px;
+    height: 600px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#text-1{
+    transform: scale(0);
+    transform-origin: 23% 15%;
+}
+#text-2{
+    transform: scale(0);
+    transform-origin: 55% 14%;
+}
+#text-3{
+    transform: scale(0);
+    transform-origin: 45% 20%;
+}
+#text-4{
+    transform: scale(0);
+    transform-origin: 29% 27%;
+}
+#text-5{
+    transform: scale(0);
+    transform-origin: 48% 28%;
+}
+#text-6{
+    transform: scale(0);
+    transform-origin: 70% 28%;
+}
+
+#image-1{
+    transform: translateY(25%);
+}
+#image-2{
+    transform: translateY(25%);
+}
+#image-3{
+    transform: translateY(25%);
+}
+#btn{
+    transform: translateY(25%);
+}
+
+
+#image-str{
+    transform: scale(0);
+    transform-origin: 48% 28%;
+}
+#image-str1{
+    transform: scale(0);
+    transform-origin: 10% 40%;
+}
+#image-str2{
+    transform: scale(0);
+    transform-origin: 48% 28%;
+}
+#image-str3{
+    transform: scale(0);
+    transform-origin: 48% 28%;
+}

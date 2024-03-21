@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-sec{
+    position: relative;
+    width: 160px;
+    height: 600px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#image-1,#btn{
+    transform: translateY(25%);
+}
+#text-2,#text-3,#text-4{
+    transform: translateY(75%);
+}
+#text-1{
+    transform: translateY(-75%);
+}
+#image-2,#image-3,#image-4,#image-8{
+    transform: translateX(-100%);
+}
+#image-5,#image-6,#image-7,#image-9{
+    transform: translateX(100%);
+}
+
+
+
+#image-str{
+    transform: scale(0);
+    transform-origin: 48% 28%;
+}
+#image-str1{
+    transform: scale(0);
+    transform-origin: 10% 40%;
+}
+#image-str2{
+    transform: scale(0);
+    transform-origin: 48% 28%;
+}
+#image-str3{
+    transform: scale(0);
+    transform-origin: 48% 28%;
+}

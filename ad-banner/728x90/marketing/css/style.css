@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.banner{
+    position: relative;
+    height: 90px;
+    width: 728px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #4b463c;
+}
+.logo{
+    width: 17.5px;
+    height: 17.5px;
+    position: absolute;
+    top: 35px;
+    left: 25px;
+}
+.text_1{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Jost, sans-serif;
+    color: #ffff;
+    top: 33px;
+    left: 47px;
+}
+.text_2{
+    position: absolute;
+    font-family: Jost, sans-serif;
+    font-size: 17px;
+    color: rgb(249, 209, 170);
+    font-weight: 700;
+    top: 24px;
+    left: 160px;
+}
+.text_3{
+    position: absolute;
+    font-family: Jost, sans-serif;
+    font-size: 17px;
+    color: rgb(249, 209, 170);
+    font-weight: 700;
+    top: 24px;
+    left: 305px;
+}
+.text_4{
+    left: 185px;
+    position: absolute;
+    font-family: Jost, sans-serif;
+    color: #fff;
+    font-size: 13.8px;
+    bottom: 24px;
+    font-weight: 400;
+}
+.btn{
+    position: absolute;
+    font-family: Jost, sans-serif;
+    font-size: 12px;
+    color: rgb(75, 70, 60);
+    font-weight: 600;
+    line-height: 1.2;
+    background: rgb(249, 209, 170);
+    right: 146px;
+    top: 35px;
+    padding: 3px 20px;
+    border-radius: 11px;
+}
+.back{
+    position: absolute;
+    width: 151px;
+    height: 151px;
+    right: -6px;
+    top: -9px;
+}
+
+
+#text_2,#text_3,#text_4,#btn{
+    transform: translateY(100px);
+}

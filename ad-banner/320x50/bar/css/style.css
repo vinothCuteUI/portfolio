@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Yellowtail", cursive;
+}
+.banner{
+    width: 320px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background: radial-gradient(circle, rgb(4, 114, 85) 0%, rgb(1, 33, 26) 100%);
+
+}
+.logo{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 18px;
+    left: 9px;
+}
+.text_1{
+    font-family: Jost, sans-serif;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 400;
+    position: absolute;
+    left: 26px;
+  top: 17px; 
+}
+.text_2{
+    font-family: Yellowtail, cursive;
+    font-size: 25px;
+    letter-spacing: 0.04em;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: -2px;
+    left: 94px;
+    z-index: 99;
+}
+.text_3{
+    font-family: Yellowtail, cursive;
+    font-size: 25px;
+    letter-spacing: 0.04em;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: -3px;
+    right: 78px;
+    z-index: 99;
+}
+.text_4{
+    font-family: Yellowtail, cursive;
+    font-size: 25px;
+    letter-spacing: 0.04em;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: -3px;
+    right: 86px;
+   z-index: 99;
+}
+.img_1{
+    position: absolute;
+    width: 29px;
+    height: 71px;
+    top: 4px;
+    right: 22px;
+    z-index: 99;
+}
+.img_2{
+    position: absolute;
+    width: 34px;
+    height: 39px;
+    bottom: -27px;
+    right: 2px;
+
+}
+.img_3{
+    position: absolute;
+    width: 40px;
+    height: 37px;
+    bottom: -27px;
+    right: 36px;
+    transform: rotate(-0.321903rad);
+    z-index: 1;
+}
+.air{
+    position: absolute;
+    width: 249px;
+    height: 79px;
+    bottom: -17px;
+    left: 154px;
+
+}
+.img_4{
+    position: absolute;
+    top: 6px;
+    width: 11px;
+    height: 11px;
+    right: 68px;
+}
+.img_5{
+    position: absolute;
+    top: 12px;
+    width: 6px;
+    height: 6px;
+    left: 88px;
+}
+.img_6{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 72px;
+    top: 27px;
+}
+.img_7{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 96px;
+    top: 29px;
+}
+.img_8{
+    position: absolute;
+    right: 79px;
+    bottom: 4px;
+    width: 6px;
+    height: 6px;
+}
+.img_9{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#logo,#text_1{
+    transform: translateX(-200px);
+}
+#text_2,#text_3,#text_4{
+    transform: translateY(200px);
+}
+#img_4,#img_5{
+    transform: scale(0);
+    transform-origin: 16% 98%;
+}
+#img_6,#img_7,#img_8{
+    transform: translateY(100px);
+}
+#img_1,#img_2,#img_3{
+    transform: translateY(8px);
+}

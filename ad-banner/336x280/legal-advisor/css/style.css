@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "PT Sans", sans-serif;
+    font-family: "Dancing Script", cursive; */
+}
+.banner{
+    height: 280px;
+    width: 336px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../image/background.svg");
+    cursor: pointer;
+}
+.logo{
+    position: absolute;
+    top: 23px;
+    left: 148px;
+    width: 40px;
+    height: 26px;
+}
+
+.text_1 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 48px;
+    left: 138px;
+}
+.text_2{
+    font-family: "PT Sans", sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(32, 31, 31);
+    position: absolute;
+    top: 82px;
+    left: 21px;
+}
+.text_3{
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    font-weight: 400;
+    color: rgb(32, 31, 31);
+    position: absolute;
+    top: 122px;
+    left: 20px;
+}
+.text_4{
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    font-weight: 400;
+    color: rgb(32, 31, 31);
+    position: absolute;
+    bottom: 80px;
+    left: 19px;
+}
+.btn{
+    background-color: black;
+    font-family: "PT Sans", sans-serif;
+    position: absolute;
+    bottom: 38px;
+    left: 18px;
+    color: #fff;
+    font-weight: 700;
+    padding: 6px 24px;
+    border-radius: 16px;
+    z-index: 99;
+}
+.img_1{
+    width: 133px;
+    height: 133px;
+    position: absolute;
+    bottom: -47px;
+    right: 10px;
+}
+.img_2{
+    width: 133px;
+    height: 133px;
+    position: absolute;
+    right: -10px;
+    top: 27px;
+    z-index: 1;
+}
+.img_3{
+    width: 133px;
+    height: 133px;
+    position: absolute;
+    bottom: -39px;
+    left: -37px;
+    z-index: 1;
+}
+.img_4{
+    width: 133px;
+    height: 133px;
+    position: absolute;
+    left: -39px;
+    top: -42px;
+}
+.law{
+    width: 276px;
+    height: 276px;
+    top: 15px;
+    left: 128px;
+    position: absolute;
+    z-index: 99;
+}
+
+#logo,#text_1{
+    transform: translateY(-100px);
+}
+#text_2,#text_3,#text_4,#btn{
+    transform: translateX(-250px);
+}

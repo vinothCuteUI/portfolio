@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+#banner-sec{
+    width: 728px;
+    height: 90px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+#logo{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 15px;
+    left: 35px;
+}
+
+#logo-head {
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(254, 242, 223);
+    position: absolute;
+    top: 58px;
+    left: 19px;
+}
+#image-1{
+    position: absolute;
+    width: 64px;
+    height: 108px;
+    top: 9px;
+    right: 26px;
+}
+#image-2{
+   width: 728px;
+   height: auto;
+}
+#image-3{
+    width: 728px;
+    height: auto;
+ }
+#petal_rose{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom:5px;
+    left: 30px;
+}
+#petal_rose1{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom:5px;
+    left: 250px;
+}
+#text-1{
+    width: 71px;
+    height: 41px;
+    position: absolute;
+    top: 11px;
+    left: 193px;
+}
+#text-2{
+    width: 36px;
+    height: 26px;
+    position: absolute;
+    top: 20px;
+    left: 270px;
+}
+#text-3{
+    width: 94px;
+    height: 51px;
+    position: absolute;
+    top: 5px;
+    left:310px;
+}
+#text-4{
+    position: absolute;
+    top: 50px;
+    left: 225px;
+    width: 28px;
+    height: 28px;
+}
+#text-5{
+    position: absolute;
+    top: 44px;
+    left: 259px;
+    width: 140px;
+    height: 43px;
+}
+#btn{
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgb(252, 112, 104);
+    border-radius: 20px;
+    padding: 7px 21px;
+    position: absolute;
+    top: 32px;
+    left: 485px;
+}
+
+
+#text-1,#text-2,#text-3,#text-4,#text-5{
+    transform: translateY(300px);
+}  
+#image-1{
+    transform: translateX(100%);
+}   
+#btn{
+    transform: scale(0);
+    transform-origin: 48% 28%;
+}

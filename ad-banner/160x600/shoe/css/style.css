@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.banner{
+    position: relative;
+    overflow: hidden;
+    width: 160px;
+    height: 600px;
+     margin: auto;
+     cursor: pointer;
+}
+.img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#text-1{
+    transform: translateY(-100%);
+}
+#text-2{
+    transform: translateX(-100%);
+}
+#text-3{
+    transform: translateX(100%);
+}
+.fade{
+    opacity: 0;
+}

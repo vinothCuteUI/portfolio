@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.banner{
+    width: 320px;
+   height: 50px;
+   overflow: hidden;
+   cursor: pointer;
+   position: relative;
+   background-color: #e1e5d4;
+}
+.logo{
+    position: absolute;
+    top: 13px;
+    left: 17px;
+    width: 26px;
+    height: 16.6667px;
+    z-index: 99;
+}
+.text_1{
+    font-family: "PT Sans", sans-serif;
+    font-size: 8.66667px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 29px;
+    left: 11px;
+
+}
+.text_2{
+    font-family: "PT Sans", sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(32, 31, 31);
+    position: absolute;
+    top: 10px;
+    left: 72px;
+    z-index: 99;
+
+}
+.law{
+    position: absolute;
+    bottom: -14px;
+    right: 5px;
+    width: 80px;
+    height: 80px;
+    z-index: 99;
+}
+.img_1{
+    width: 57.3333px;
+    height: 57.3333px;
+    position: absolute;
+    left: 7px;
+    top: -20px;
+   z-index: 1;
+}
+.img_2{
+    width: 57.3333px;
+    height: 57.3333px;
+    position: absolute;
+    left: 83px;
+    top: 20px;
+    z-index: 1;
+}
+.img_3{
+    right: 65px;
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: -18px;
+    z-index: 1;
+}
+.img_4{
+    width: 54.6667px;
+    height: 54.6667px;
+    position: absolute;
+    right: -9px;
+    bottom: -25px;
+    z-index: 1;
+}
+.text_3{
+        font-family: "Dancing Script", cursive;
+        font-size: 23px;
+        font-weight: 400;
+        color: rgb(32, 31, 31);
+        left: 62px;
+        top: 12px;
+        position: absolute;
+        z-index: 99;
+}
+.text_4{
+    font-family: "Dancing Script", cursive;
+    font-size: 23px;
+    font-weight: 400;
+    color: rgb(32, 31, 31);
+    left: 151px;
+    top: 12px;
+    position: absolute;
+   z-index: 99  ;
+}
+
+
+#logo,#text_1{
+    transform: translateX(-100px);
+}
+#text_2{
+    transform: translateY(-100px);
+}
+#text_3,#text_4{
+    transform: translateY(100px);
+}
