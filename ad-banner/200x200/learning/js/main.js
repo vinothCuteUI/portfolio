@@ -17,9 +17,6 @@ function animations(){
     tl.to("#man",{x:"-=20",yoyo:true, repeat:0   ,duration:5 ,ease:"power1.out"},startTime)
     tl.to("#man",{x:"+=20",yoyo:true, repeat:0 ,duration:5 ,ease:"power1.out"},startTime)
 
-
-
-    console.log(tl.totalDuration());
 }
 
 window.addEventListener("load",animations)

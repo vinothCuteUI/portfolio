@@ -21,8 +21,6 @@ function animations(){
     startTime+=1
     
 
-
-    console.log(tl.totalDuration());
 }
 
 window.addEventListener("load",animations)

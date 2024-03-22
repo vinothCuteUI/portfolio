@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 250px;
+  cursor: pointer;
+  opacity: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: 1px solid #ccc;
+  background-color: #f5f5f0;
+  overflow: hidden;
+}
+.hide{  
+  opacity: 0;
+}
+.ads{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 250px;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+
+#frame1_copy1{
+  position: absolute;
+  top: 14px;
+  left: 162px;
+  width: 135px;
+  height: auto;
+  font-size: 25px;
+  line-height: 27px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  color: #313163;
+}
+#frame2_copy2, #frame3_copy3{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 290px;
+  height: auto;
+  font-size: 25px;
+  line-height: 27px;
+  letter-spacing: -0.6px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  color: #313163;
+}
+
+#disclaimer1{
+  position: absolute;
+  top: auto;
+  bottom: 4px;
+  left: 162px;
+  width: 135px;
+  height: auto;
+  font-size: 8px;
+  line-height: 9px;
+  letter-spacing: 0.04px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: #313163;
+}
+#disclaimer2{
+  position: absolute;
+  top: auto;
+  bottom: 4px;
+  left: 31px;
+  width: 255px;
+  height: auto;
+  font-size: 8px;
+  line-height: 9px;
+  letter-spacing: 0.04px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: #313163;
+}
+
+#products {
+  position: absolute;
+  top: 58px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 135px;
+  
+}
+
+.item {
+  width: 40%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 40%;
+  padding: 5px;
+}
+
+#frame1_copy1 {
+    transform: translateY(-250px);
+}
+#frame2_copy2, #frame3_copy3, #products, #frame2_logo, #ctaHolder, #disclaimer2{
+  transform: translateX(300px);
+}
+
+
+#svg-container {
+  position:absolute;
+  left: 0px;
+  top:0px;
+  width: 900px;
+  height: 250px;
+  -webkit-transform: translate(0,0) scale(1) rotate(0deg);
+  transform: translate(0,0) scale(1) rotate(0deg);
+  
+}
+.layer1{
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  transform: translate(-88px, 25px) scale(0.51) rotate(0deg);
+  -moz-transform: translate(-88px, 25px) scale(0.51) rotate(0deg);
+  -o-transform: translate(-88px, 25px) scale(0.51) rotate(0deg);
+  transform: translate(-88px, 25px) scale(0.51) rotate(0deg);
+}
+.st0{
+  fill:none;
+  stroke:#DB2E32;
+  stroke-width:6;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  stroke-dashoffset: 699;
+  stroke-dasharray: 698;
+  
+}
+.st2{
+  fill:none;
+  stroke:#DB2E32;
+  stroke-width:6;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  stroke-dashoffset: 699;
+  stroke-dasharray: 698;
+  
+}
+.st1{
+  fill:none;
+  stroke:#DB2E32;
+  stroke-width:6;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  stroke-dashoffset: 2971;
+  stroke-dasharray: 2970;
+  
+}
+
+/*#ctaShine{
+  position: absolute;
+  top: 194px;
+  left: 21px;
+  width: 93px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 25px;  
+}
+#shine{
+  position: absolute;
+  left: -70px;
+  top: -16px;
+  width: 70px;
+  height: auto;
+}*/
+
+
+#ctaHolder{
+    position: absolute;
+    bottom: 25px;
+    left: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 92px;
+    width: auto;
+    height: 31px;
+    border-radius: 25px;
+    background-color: #313163;
+    padding: 0 10px;
+    
+}
+#cta {
+  color: #ffffff;
+  font-size: 11px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+
+#ctaShine{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 31px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+#shine{
+    position: absolute;
+    left: -70px;
+    top: -17px;
+    width: 70px;
+    height: auto;
+}
+

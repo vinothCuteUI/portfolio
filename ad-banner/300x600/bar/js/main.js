@@ -34,8 +34,6 @@ function animations(){
     
 
 
-    console.log(tl.totalDuration());
-
 }
 
 window.addEventListener("load", animations)

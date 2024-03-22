@@ -15,7 +15,6 @@ function animations(){
     startTime+=1;
    tl.to("#test-5", {x:0},startTime)
 
-   console.log(tl.totalDuration());
 }
 
 window.addEventListener("load", animations)

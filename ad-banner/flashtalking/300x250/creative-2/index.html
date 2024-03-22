@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="container">
+
+    <!-- Frame 1 -->
+    <ft-dynamic name="frame1_img1" id="frame1_img1" class="ads"></ft-dynamic>
+    <ft-dynamic name="frame1_copy1" id="frame1_copy1"></ft-dynamic>
+    <ft-dynamic name="disclaimer1" id="disclaimer1"></ft-dynamic>
+    <ft-dynamic name="frame1_logo" id="frame1_logo" class="ads"></ft-dynamic>
+
+     <!-- Frame 2 -->
+    <ft-dynamic name="frame2_copy2" id="frame2_copy2"></ft-dynamic>
+    <ft-dynamic name="disclaimer2" id="disclaimer2"></ft-dynamic>
+
+    <!-- Frame 3 -->
+    <ft-dynamic name="frame3_copy3" id="frame3_copy3"></ft-dynamic>
+
+    <!-- Red line & Products -->
+    <div id="svg-container"> 
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      viewBox="0 0 1800 500" style="enable-background:new 0 0 1800 500;" xml:space="preserve">
+          <path class="st0" d="M230.95,321.98c0,0,80-64.59,164.15-74.07c0,0,64.3-9.78,117.04,8.89c52.74,18.67,50.07,31.41,50.07,33.48
+          c0,2.07-0.74,15.98-18.07,7.11c0,0-13.93-8.89-14.22-30.52"/>
+          <path class="st1" d="M529.91,266.87c0,0-0.25-29.33,32.32-41.19c32.57-11.85,71.38-4.74,117.01,12.44
+          c45.63,17.19,110.81,52.15,187.56,31.41s199.7-49.48,294.22-53.63c94.52-4.15,160.89,26.37,191.7,38.81
+          c30.81,12.44,114.96,71.7,179.56,44.44c64.59-27.26,135.11-73.48,221.63-44.44s100.15,51.53,100.15,51.53"/>
+       </svg>
+    </div>
+    <ft-dynamic name="frame2_logo" id="frame2_logo" class="ads"></ft-dynamic>
+    <div id="ctaHolder">
+        <div id="cta"></div>
+        <div id="ctaShine">
+          <img src="images/shine-bar.png" id="shine">
+        </div>
+     </div>
+     <!-- Product Items-->
+    <div id="products"></div>
+    
+  </div>
+</body>
+
+<script src="https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js"></script>
+<script src="https://cdn.flashtalking.com/feeds/frameworks/js/api/20/FTFeed.min.js"></script>
+<script src="https://cdn.flashtalking.com/frameworks/js/gsap/latest/TweenMax.min.js"></script>
+<script type="text/javascript" src="script/script.js"></script>
+<script>
+  var _dynamicData;
+
+  myFT.on('instantads', function() {
+    _dynamicData = myFT.instantAds;
+
+    var container = document.getElementById('container');
+
+
+    // Feed Initialization
+    var ftFeed = new FTFeed(myFT);
+
+    // Show ad with feed content
+    function feedSuccess(feedItems) {
+      var productContainer = document.getElementById('products');
+      document.getElementById("cta").innerHTML = _dynamicData.cta;
+
+      for (var i = 0; i < feedItems.length; i++) {
+        if(i < 4){
+          var itemContainer = document.createElement('div');
+          var itemImage = new Image();
+
+          itemImage.classList.add('image');
+          itemImage.src = feedItems[i].image_link;
+
+          itemContainer.classList.add('item');
+          itemContainer.appendChild(itemImage);
+
+          myFT.applyClickTag(itemContainer, 2, feedItems[i].url);
+
+          productContainer.appendChild(itemContainer);
+        }
+        
+      }
+
+      container.style.opacity = 1;
+      
+    }
+
+    // Show fallback messaging
+    function feedError(errorMessage) {
+      container.innerHTML = '';
+      container.style.backgroundImage = 'url(' + _dynamicData.fallback + ')';
+      container.style.opacity = 1;
+    }
+
+    // Feed Request
+    ftFeed.getFeed(feedSuccess, feedError);
+    
+    /*----------------------*/
+
+     // copy CSS overrides:
+    if(_dynamicData.css_copy.length > 0)
+    {
+        var css_copy = _dynamicData.css_copy;
+        var head = document.head;
+        var style = document.createElement('style');
+        style.type = 'text/css';
+        style.appendChild(document.createTextNode(css_copy));
+        head.appendChild(style);
+    }
+
+
+    myFT.applyClickTag(container, 1, _dynamicData.clickTag1_url);
+  })
+</script>
+
+</html>

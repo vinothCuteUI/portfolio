@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-TextLayoutMetrics" content="gdi" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>300x250</title>
+		<meta name="ad.size" content="width=300,height=250">
+		<link type="text/css" rel="stylesheet" href="css/style.css">	
+    	
+	</head>
+	
+	<!--content-->
+	<body>
+					
+		<div id="container" >
+			<!-- Frame1 -->
+			<img src="images/bg1.jpg" id="bg1" class="imgs">
+
+			<img src="images/copy1.png" id="copy1" class="imgs hidde">
+			<img src="images/copy2.png" id="copy2" class="imgs hidde">
+			<img src="images/logo1.png" id="logo1" class="imgs">
+			<img src="images/legal.png" id="legal" class="imgs hidde">
+
+			<div id="frame3">
+				<img src="images/bg2.jpg" id="bg2" class="imgs">
+				<img src="images/copy3.png" id="copy2" class="imgs">				
+				<img src="images/cta.png" id="cta" class="imgs">
+				<img src="images/logo2.png" id="logo2" class="imgs ">
+				<div id="ctaShine">
+					<img src="images/shine-bar.png" id="shine">
+				</div>
+			</div>
+				
+			
+			<div id="border"></div>
+			
+		</div>
+	</body>
+	<!--scripts-->		
+	<script src="https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js"></script>
+	<script src="https://cdn.flashtalking.com/frameworks/js/gsap/latest/TweenMax.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+	<script>
+		  var container = myFT.$("#container");
+		  myFT.applyClickTag(container, 1);
+	</script>
+</html>
+

@@ -11,7 +11,6 @@ function animations(){
 
     tl.to("#test-5", {scale: 1,duration:0.5,ease: "power1.out" }, startTime);
 
-    console.log(tl.totalDuration());
 
 }
 

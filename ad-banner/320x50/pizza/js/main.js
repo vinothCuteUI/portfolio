@@ -27,7 +27,6 @@ function animation(){
     tl.to("#image-10",{y:0,yoyo:true, repeat:0 ,duration:1.3 ,ease:"power1.out"}, startTime);
    
   
-  console.log(tl.totalDuration());
 }
 
 window.addEventListener("load", animation)

@@ -28,8 +28,6 @@ function animations(){
     tl.to("#text-5",{x:"-=10",yoyo:true, repeat:1    ,duration:0.5 ,ease:"power1.out"},startTime)
     tl.to("#text-5",{x:"+=10",yoyo:true, repeat:1 ,duration:0.5 ,ease:"power1.out"},startTime)
 
-
-    console.log(tl.totalDuration());
 }
 
 window.addEventListener("load",animations)

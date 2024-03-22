@@ -20,7 +20,6 @@ function animation(){
    
 
   
-  console.log(tl.totalDuration());
 }
 
 window.addEventListener("load", animation)

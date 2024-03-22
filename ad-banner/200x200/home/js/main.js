@@ -20,7 +20,6 @@ function animations(){
     startTime+=1;
     tl.to("#image_1",{x:120, duration:5 ,ease:"power1.out"},startTime);
 
-    console.log(tl.totalDuration());
 }
 
 window.addEventListener("load",animations)

@@ -1,0 +1,146 @@
+body{
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#container{
+	width: 300px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    background-color: #ffffff;
+	opacity: 0;
+     margin: 0 auto; 
+}
+
+.imgs {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:300px;
+    height:auto;
+
+}
+.hidde{
+    opacity: 0;
+}
+#bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 250px;
+	background-color: #f5f4ee;
+}
+
+
+#frame3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 250px;
+    transform: translateY(-250px);
+    z-index: 99;
+}
+
+#border{
+    width:298px;
+    height:248px;
+    border:1px solid #000;
+    z-index: 999;
+    opacity: 0.3;
+    pointer-events:none;
+	position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#ctaShine{
+    position: absolute;
+    top: 190px;
+    left: 30px;
+    width: 105px;
+    height: 31px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+#shine{
+    position: absolute;
+    top: -17px;
+    left: -75px;
+    width: 76px;
+    height: auto;
+}
+
+#svg-container {
+    position:absolute;
+    left: 0px;
+	top:0px;
+    width: 600px;
+    height: 250px;
+    -webkit-transform: translate(0,0) scale(1) rotate(0deg);
+    transform: translate(0,0) scale(1) rotate(0deg);
+	z-index: 1;
+}
+/*.layer1{
+   position: absolute;
+    width: 400px;
+    height: 250px;
+    transform: translate(-88px, 25px) scale(0.51) rotate(0deg);
+    -moz-transform: translate(-88px, 25px) scale(0.51) rotate(0deg);
+    -o-transform: translate(-88px, 25px) scale(0.51) rotate(0deg);
+    transform: translate(-88px, 25px) scale(0.51) rotate(0deg);
+}*/
+.st0{
+    fill:none;
+    stroke:#E62500;
+    stroke-width:5;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+    stroke-dashoffset: 490;
+    stroke-dasharray: 490;
+  
+}
+
+.st1{
+    fill:none;
+    stroke:#E62500;
+    stroke-width:5;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+    stroke-dashoffset: 400;
+    stroke-dasharray: 400;
+}
+
+.st2{
+    fill:none;
+    stroke:#E62500;
+    stroke-width:5;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+    stroke-dashoffset:370;
+    stroke-dasharray:370;
+}
+
+#lineHolder{
+    position: absolute;
+    left: 36px;
+    top: 106px;
+    width: 50px;
+    height: 35px;
+    /*transform: translateX(-80px);*/
+}
+/*#Layer_1, #Layer_2, #Layer_3, #Layer_4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}*/
+

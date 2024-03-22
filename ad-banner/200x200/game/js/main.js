@@ -47,7 +47,7 @@ function animations(){
    startTime+=0.5;
    tl.to("#img_2",{x:150,duration:0.6 ,ease:"power1.out"},startTime);
 
-    console.log(tl.totalDuration());
+  
 }
 
 window.addEventListener("load",animations)

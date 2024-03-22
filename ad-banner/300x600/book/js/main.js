@@ -25,7 +25,6 @@ function animation(){
     tl.to("#text-5",{y:0,yoyo:true, repeat:0 ,duration:2 ,ease:"power1.out"}, startTime);
 
   
-  console.log(tl.totalDuration());
 }
 
 window.addEventListener("load", animation)

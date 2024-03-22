@@ -24,8 +24,6 @@ function animation(){
     startTime +=3;
     tl.to("#text-3",{x:0}, duration=2.3, startTime);
 
-
-    console.log(tl.totalDuration());
    
 }
 

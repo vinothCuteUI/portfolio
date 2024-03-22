@@ -23,19 +23,9 @@ function animations(){
      startTime+=2.5;
     tl.to("#img_3",{x:200,duration:1 ,ease:"power1.out"},startTime);
 
-   
-
-
-
-
     tl.to("#text_3",{x:0,duration:1 ,ease:"power1.out"},startTime);
     tl.to("#text_4",{x:0,duration:1.4 ,ease:"power1.out"},startTime);
   
-
-   
-
-
-    console.log(tl.totalDuration());
 }
 
 window.addEventListener("load",animations)

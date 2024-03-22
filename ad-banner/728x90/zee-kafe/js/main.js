@@ -17,7 +17,6 @@ function animations(){
     startTime+=0.5;
     tl.to("#text_5,#btn",{y:0,duration:0.5 ,ease:"power1.out"},startTime);
 
-    console.log(tl.totalDuration());
 }
 
 window.addEventListener("load",animations)
